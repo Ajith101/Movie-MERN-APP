@@ -1,0 +1,25 @@
+import React from "react";
+import { useMoviesStore } from "../utils/MovieContext";
+
+const Pagination = ({ totalPage, setCurrentPage, movies }) => {
+  const displayPages = Array.from({ length: totalPage }, (ele, id) => {
+    const currentPage = id + 1;
+    return (
+      <button
+        onClick={() => setCurrentPage(currentPage)}
+        key={id}
+        className={`rounded-[4px] ${
+          movies?.currentPage === currentPage
+            ? "cursor-auto bg-blue-50 font-semibold text-blue-950"
+            : "cursor-pointer"
+        } border-[2px] px-[8px] py-[5px] text-center`}
+      >
+        {currentPage}
+      </button>
+    );
+  });
+
+  return <div className="flex items-center gap-[15px]">{displayPages}</div>;
+};
+
+export default Pagination;
