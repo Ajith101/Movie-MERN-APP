@@ -2,18 +2,13 @@
 
 Full-stack movie app built with the MERN stack, following the MVC architecture. It provides users with an interactive platform to manage their movie collection and plan their watchlist. With an elegant and user-friendly interface, and seamless movie browsing experience..
 
-## Features
-
-- Movie Lists
-- Genres Lists
-- Login
-- Register
-- Forgot Password
-- OTP Confirmation
-- Hover and see trailer
+![MERN Movie Dashboard](https://github.com/Ajith101/Movie-MERN-APP/assets/41799543/6b04c52e-fbc2-42d7-918a-1c0955d30c02)
+![MERN-MOVIE-APP](https://github.com/Ajith101/Movie-MERN-APP/assets/41799543/c8c2065a-6294-4dd1-8348-e5c1514ee568)
+![MERN-MOVIE-APP](https://github.com/Ajith101/Movie-MERN-APP/assets/41799543/38812139-9806-497f-9347-9ff6f1ceb351)
 
 ## Features of the Movies Dashboard App
 
+- Movies Listing Dashboard
 - Add and edit movies
 - Add and edit genres
 - Managing content
@@ -23,7 +18,7 @@ Full-stack movie app built with the MERN stack, following the MVC architecture. 
 - Forgot Password
 - Confirmation OTP
 - Filter by rating,genres
-- Search Movies
+- Search by Movies
 - Pagination
 
 ## Features of the Movies Listing App
@@ -36,7 +31,7 @@ Full-stack movie app built with the MERN stack, following the MVC architecture. 
 - Forgot Password
 - Confirmation OTP
 - Filter by rating,genres
-- Search Movies
+- Search by Movies
 - Pagination
 
 ## Technologies Used
@@ -63,6 +58,8 @@ Full-stack movie app built with the MERN stack, following the MVC architecture. 
 
 - **Cloudinary:** For efficient image hosting, retrieval,and management.
 
+- **CORS(Cross-Origin Resource Sharing):** To allow secure communication between the frontend and backend hosted on different domains.
+
 ## Preview
 
 Movies Dashboard App
@@ -73,10 +70,6 @@ https://github.com/Ajith101/Movie-MERN-APP/assets/41799543/14a0bcc6-f487-4da3-8a
 
 ## Screenshots
 
-![MERN-MOVIE-APP](https://github.com/Ajith101/Movie-MERN-APP/assets/41799543/bb38d8e0-e5a8-4701-8a05-77292ac36a0b)
-![MERN-MOVIE-APP](https://github.com/Ajith101/Movie-MERN-APP/assets/41799543/38812139-9806-497f-9347-9ff6f1ceb351)
-![MERN-MOVIE-APP](https://github.com/Ajith101/Movie-MERN-APP/assets/41799543/f54ad844-f9b5-4b1f-a59b-541e651ebe5e)
-![MERN-MOVIE-APP](https://github.com/Ajith101/Movie-MERN-APP/assets/41799543/c8c2065a-6294-4dd1-8348-e5c1514ee568)
 ![MERN-MOVIE-APP](https://github.com/Ajith101/Movie-MERN-APP/assets/41799543/6448f890-525c-48ff-82bb-1a6549efb9a9)
 ![MERN-MOVIE-APP](https://github.com/Ajith101/Movie-MERN-APP/assets/41799543/c0e16292-67d3-4c73-b828-b374eb557f37)
 ![MERN-MOVIE-APP](https://github.com/Ajith101/Movie-MERN-APP/assets/41799543/d6080a95-0345-49a9-8702-9d8d0f8b81ff)
@@ -84,18 +77,32 @@ https://github.com/Ajith101/Movie-MERN-APP/assets/41799543/14a0bcc6-f487-4da3-8a
 ![MERN-MOVIE-APP](https://github.com/Ajith101/Movie-MERN-APP/assets/41799543/52eec25a-a567-4214-bb71-094b68cce18a)
 ![MERN-MOVIE-APP](https://github.com/Ajith101/Movie-MERN-APP/assets/41799543/d30a2d30-b191-44d1-94a6-7a3703999365)
 ![MERN-MOVIE-APP](https://github.com/Ajith101/Movie-MERN-APP/assets/41799543/cea7eeec-5848-4b7e-8bc5-d0e07e38fa48)
+![MERN-MOVIE-APP](https://github.com/Ajith101/Movie-MERN-APP/assets/41799543/bb38d8e0-e5a8-4701-8a05-77292ac36a0b)
+![MERN-MOVIE-APP](https://github.com/Ajith101/Movie-MERN-APP/assets/41799543/38812139-9806-497f-9347-9ff6f1ceb351)
+![MERN-MOVIE-APP](https://github.com/Ajith101/Movie-MERN-APP/assets/41799543/f54ad844-f9b5-4b1f-a59b-541e651ebe5e)
+![MERN-MOVIE-APP](https://github.com/Ajith101/Movie-MERN-APP/assets/41799543/c8c2065a-6294-4dd1-8348-e5c1514ee568)
 
 ## Installation
 
-1. Clone the repository from GitHub.
-2. Install Node.js and MongoDB on your system if you haven't already.
-3. Run
+- Clone the repository from GitHub.
+- Install Node.js and MongoDB on your system if you haven't already.
+- Run
 
 ```
 npm install
 ```
 
-in the root directory to install the required dependencies. 4. Configure the MongoDB connection string in the server configuration file. 5. Set up Cloudinary account and obtain necessary credentials for image hosting. 6. Run npm run start to start the development server.
+in the root directory to install the required dependencies.
+
+- Configure the MongoDB connection string in the server configuration file.
+- Set up Cloudinary account and obtain necessary credentials for image hosting.
+- Run
+
+```
+npm run dev
+```
+
+start to start the development server.
 
 ### In `.env` file inside server, put
 
