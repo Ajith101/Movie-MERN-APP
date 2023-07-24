@@ -2,9 +2,15 @@
 
 Full-stack movie app built with the MERN stack, following the MVC architecture. It provides users with an interactive platform to manage their movie collection and plan their watchlist. With an elegant and user-friendly interface, and seamless movie browsing experience..
 
+## Preview
+
 ![MERN Movie Dashboard](https://github.com/Ajith101/Movie-MERN-APP/assets/41799543/6b04c52e-fbc2-42d7-918a-1c0955d30c02)
 ![MERN-MOVIE-APP](https://github.com/Ajith101/Movie-MERN-APP/assets/41799543/bb38d8e0-e5a8-4701-8a05-77292ac36a0b)
 ![MERN-MOVIE-APP](https://github.com/Ajith101/Movie-MERN-APP/assets/41799543/38812139-9806-497f-9347-9ff6f1ceb351)
+
+Movies Dashboard App
+[movies-dashboard](https://github.com/Ajith101/Movie-MERN-APP/assets/41799543/6293f1c4-5f5c-45bb-83b5-4da48f71cd56)
+[movies-listing](https://github.com/Ajith101/Movie-MERN-APP/assets/41799543/14a0bcc6-f487-4da3-8af1-7d242b429734)
 
 ## Features of the Movies Dashboard App
 
@@ -59,14 +65,6 @@ Full-stack movie app built with the MERN stack, following the MVC architecture. 
 - **Cloudinary:** For efficient image hosting, retrieval,and management.
 
 - **CORS(Cross-Origin Resource Sharing):** To allow secure communication between the frontend and backend hosted on different domains.
-
-## Preview
-
-Movies Dashboard App
-https://github.com/Ajith101/Movie-MERN-APP/assets/41799543/6293f1c4-5f5c-45bb-83b5-4da48f71cd56
-
-Movies Listing App
-https://github.com/Ajith101/Movie-MERN-APP/assets/41799543/14a0bcc6-f487-4da3-8af1-7d242b429734
 
 ## Screenshots
 
